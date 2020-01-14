@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '>=2.3.0'
+ruby '>=2.4.0'
 
 # Ensure github repositories are fetched using HTTPS
 git_source(:github) do |repo_name|
@@ -99,7 +99,7 @@ gem 'devise', '~> 4.6.2'
 gem 'em-http-request', '~> 1.1.2'
 gem 'faraday', '~> 0.9'
 gem 'faraday_middleware', '~> 0.12.2'
-gem 'feedjira', '~> 2.1'
+gem 'feedjira', '~> 3.1'
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'foreman', '~> 0.63.0'
 gem 'geokit', '~> 1.8.4'
@@ -108,7 +108,7 @@ gem 'httparty', '~> 0.13'
 gem 'httmultiparty', '~> 0.3.16'
 gem 'jquery-rails', '~> 4.2.1'
 gem 'huginn_agent', '~> 0.4.0'
-gem 'json', '~> 1.8.1'
+gem 'json', '~> 2.3'
 gem 'jsonpath', '~> 1.0.1'
 gem 'kaminari', '~> 1.1.1'
 gem 'kramdown', '~> 1.3.3'

@@ -34,7 +34,7 @@ Getting Huginn up and running using docker is quick and painless once you have d
 
 ## Configuration and linking to a database container
 
-Follow the [instructions on the docker hub registry](https://registry.hub.docker.com/u/huginn/huginn/) on how to configure Huginn using environment variables and linking the container to an external MySQL or PostgreSQL database.
+Follow the [instructions on the docker hub registry](https://registry.hub.docker.com/r/huginn/huginn/) on how to configure Huginn using environment variables and linking the container to an external MySQL or PostgreSQL database.
 
 ## Running each Huginn process in a seperate container
 
@@ -44,5 +44,5 @@ With the `cantino/huginn-single-process` image you can easily run each process n
 
 Other Docker options:
 
-* If you don't want to use the official repo, see also: https://registry.hub.docker.com/u/andrewcurioso/huginn/
+* If you don't want to use the official repo, see also: https://registry.hub.docker.com/r/andrewcurioso/huginn
 * If you'd like to run Huginn's web process and job worker process in separate containers, another option is https://github.com/hackedu/huginn-docker. It also uses Unicorn as the web server and serves precompiled assets.
